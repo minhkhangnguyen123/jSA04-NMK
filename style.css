@@ -1,0 +1,339 @@
+/* #nav-left{
+    width: 20%;
+}
+#nav-right{
+    width: 60%;
+}
+#nav{
+    display: flex;
+
+}
+#nav-center{
+    width: 20%;
+} */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+#header ul li{
+list-style: none;
+padding: 0 5px;
+font-size: 30px;
+}
+#header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #98c5e9;
+   justify-content: space-between;
+}
+#left{
+    display: flex;
+    align-items: center;
+}
+#left li :hover{
+    color: blueviolet;
+}
+#left li a{
+text-decoration: none;
+color: #001838;
+}
+#btn{
+    margin: 40px;
+    width: 100px;
+    height: 30px;
+  
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+
+#pic img{
+    width: 100%;
+    height: 700px;
+}
+#signup-form{
+    text-align: center;
+    width: 55%;
+    margin:20px auto;
+    border: 5px double orange;
+    border-radius: 5px;
+
+}
+#signup-form input{
+    width: 90%;
+    margin: 5px 0;
+}
+#about{
+    width: 70%;
+    margin: 20px auto;
+  text-align: center;
+  background-image: url(./images/cap-nhat-50-hinh-nen-bong-da-dep-chat-luong-nhat-cho-may-tinh_1.jpg);
+ border-radius: 5px;
+ padding: 20px 30px 20px;
+}
+#about-info{
+margin:0 200px ;
+font-size: 18px;
+color:#FFFFFF;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#about h2{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#about-info button, #post-left button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+#about-info button:hover{
+    color: aliceblue;
+    background-color: bisque;
+}
+
+hr{
+    border: 2px solid burlywood;
+    width: 90%;
+}
+#img-1 h2, #img-2 h2, #img-3 h2,#img-4 h2,#img-5 h2,#img-6 h2, #img-7 h2,#img-8 h2,#img-9 h2,#img-10 h2{
+ text-align: center;
+ color: brown;
+}
+#img-1, #img-2,#img-3,#img-4,#img-5{
+   animation: changeBg 10s linear infinite;
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 30px;
+}
+#img-6,#img-7,#img-8,#img-9,#img-10{
+    animation: changeBg-1 10s linear infinite;
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 30px;
+}
+@keyframes changeBg{
+    0%{
+        background-color: #fff;
+    }
+    25%{
+        background-color: #2cb3d1;
+    }
+    50%{
+        background-color: #05cdfa;
+    }
+    75%{
+        background-color: #001838;
+    }
+    100%{
+        background-color: #1f2c3d;
+    }
+}
+@keyframes changeBg-1{
+    0%{
+        background-color: #8a8a8a;
+    }
+    25%{
+        background-color: #5e627d;
+    }
+    50%{
+        background-color: #3b4373;
+    }
+    75%{
+        background-color: #1d286e;
+    }
+    100%{
+        background-color: #001489;
+    }
+}
+#img-1 img, #img-2 img,#img-3 img,#img-4 img, #img-5 img,#img-6 img, #img-7 img,#img-8 img,#img-9 img, #img-10 img{
+    width: 100%;
+   
+}
+#info-all-1 {
+    display: flex;
+  margin-right: 30px;
+}
+#text{
+text-align: center;
+color: #6caddf;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#text-1{
+    text-align: center;
+    color: #001489;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#info-all {
+    display: flex;
+  margin-right: 30px;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #111;
+}
+#footer-map{
+    margin: 10px;
+}
+#footer-icon a{
+    font-size: 50px;
+    color: #fff;
+}
+#footer-info{
+    color: #fff;
+}
+#icon-under{
+    display: flex;
+    justify-content: space-between;
+}
+
+#side{
+
+    display: flex;
+    width: 20%;
+    margin: auto;
+    justify-content: center;
+ 
+    margin: 0 20px;
+ 
+  
+}
+#all{
+    display: flex;
+}
+#side-1{
+    margin: 0 20px;
+  
+}
+#side-2{
+    margin: 0 20px;
+   
+}
+#messi h2{
+    margin-top: 100px;
+    font-size: 50px;
+    background-color:#f78da7;
+    width: 300px;
+    color: #FFFFFF;
+    position: absolute;
+}
+#messi img{
+    width: 100%;
+}
+#messi-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#post-1, #post-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.post-img{
+    width: 40%;
+}
+.post-content{
+    width: 40%;
+    background-color: #8a8a8a;
+    font-size: 20px;
+    margin: 0 5px;
+    border-radius: 25px;
+}
+.post-img img{
+    width: 100%;
+    border-radius: 25px;
+}
+#post-area h2{
+    text-align: center;
+    font-size: 50px;
+}
+.post-text,.post-text-1{
+    margin: 10px 5px;
+}
+.post-content-1 h3{
+background-color:#f78da7 ;
+margin:  10px;
+width: 80%;
+color: #FFFFFF;
+font-size: 25px;
+
+}
+
+.post-content-1{
+    width: 40%;
+  
+}
+.title{
+    background-color: #333;
+    margin:  10px;
+width: 50%;
+color: #f78da7;
+font-size: 20px;
+
+}
+.post-content-1{
+    background-color: #8a8a8a;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 0 10px;
+}
+#sign-up-btn{
+    width: 100px;
+    height: 30px;
+    margin: 10px 0;
+}
+#post-2{
+    margin-bottom: 10px;
+}
+#bio-1{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 30px;
+   
+    margin: 20px 0;
+ 
+}
+#bio-1 img{
+    width: 100%;
+   
+}
+#bio-1 h2{
+    text-align: center;
+}
+#bio-1:hover{
+    background-color: #6caddf;
+}
+#big-bio{
+    display: flex;
+}
+#us{
+    width: 50%;
+    text-align: center;
+    margin: 10px 300px;
+    background-color:#f78da7;
+    border-radius: 25px;
+}
+#us p {
+    color: #FFFFFF;
+}
+#bio-1 h2{
+    font-style: 0;
+}
+#us h1{
+    color: #111;
+}
+
+
